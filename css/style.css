@@ -1,0 +1,116 @@
+#container
+{
+    width: 100vw;
+    height: 100vh;
+   
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    color: white;
+}
+
+#top
+{
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 100vw;
+    height: 100vh;
+   
+    position: absolute;
+
+    background-color: #525252;
+    background-image: url(../imagens/motherboard-internal-4k-k7-1920x1080.jpg);
+
+    opacity: 99%;
+
+    background-size: cover;
+    background-attachment: fixed;
+
+    isolation: isolate;
+}
+
+#top::after
+{
+    content: '';
+
+    width: 100vw;
+    height: 100vh;
+   
+    position: absolute;
+
+    z-index: 1;
+    inset: 0;
+    background: #313131;
+    opacity: .9;
+}
+
+#middle
+{
+    top: 100vh;
+    left: 0;
+    right: 0;
+    top: 100vh;
+
+    width: 100vw;
+    height: 100vh;
+   
+    position: absolute;
+
+    background-color: #313131;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 5vh;
+}
+
+ul
+{
+    background-color: #414141;
+    border-radius: 5vh 0.5vh 5vh 0.5vh;
+
+    width: 20vw;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+}
+
+li
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li.title
+{
+    background-color: aliceblue;
+    color: #313131;
+    font-size: 10vh;
+}
+
+li.content
+{
+    font-size: 2.5vh;
+}
+
+/* #navbar
+{
+    width: 100vw;
+    height: 7.5vh;
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    right: 0;
+
+    background-color: #414141;
+} */
